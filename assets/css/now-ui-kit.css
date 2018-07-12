@@ -3390,7 +3390,9 @@ body {
 .navbar.bg-white:not(.navbar-transparent) .button-bar {
     background: #444444;
 }
-
+.navbar-brand img {
+    max-height: 50px;
+}
 .navbar.bg-white:not(.navbar-transparent) .nav-item.active .nav-link:not(.btn),
 .navbar.bg-white:not(.navbar-transparent) .nav-item .nav-link:not(.btn):focus,
 .navbar.bg-white:not(.navbar-transparent) .nav-item .nav-link:not(.btn):hover,
