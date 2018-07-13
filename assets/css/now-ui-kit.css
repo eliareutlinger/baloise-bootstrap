@@ -1533,7 +1533,7 @@ fieldset[disabled]
 }
 
 .btn-primary {
-    background-color: #003399;
+    background-color: #009EE7;
     color: #FFFFFF;
 }
 
@@ -1541,7 +1541,7 @@ fieldset[disabled]
 .show > .btn-primary.dropdown-toggle,
 .show > .btn-primary.dropdown-toggle:focus,
 .show > .btn-primary.dropdown-toggle:hover {
-    background-color: #fa7a50;
+    background-color: #003399;
     color: #FFFFFF;
     box-shadow: none;
 }
@@ -5408,28 +5408,10 @@ Created using IcoMoon - icomoon.io
     height: 670px;
 }
 
-.section-images .hero-images-container,
-.section-images .hero-images-container-1,
-.section-images .hero-images-container-2 {
-    margin-top: -38vh;
-}
-
 .section-images .hero-images-container {
-    max-width: 670px;
-}
-
-.section-images .hero-images-container-1 {
-    max-width: 390px;
-    position: absolute;
-    top: 55%;
-    right: 18%;
-}
-
-.section-images .hero-images-container-2 {
-    max-width: 225px;
-    position: absolute;
-    top: 68%;
-    right: 12%;
+    margin-top: -7vh;
+    margin-left: -10%;
+    width: 120%;
 }
 
 [data-background-color="orange"] {
@@ -6486,18 +6468,9 @@ Created using IcoMoon - icomoon.io
         max-height: 500px;
     }
     .section-images .hero-images-container {
-        max-width: 500px;
+        max-width: 120%;
     }
-    .section-images .hero-images-container-1 {
-        right: 10%;
-        top: 68%;
-        max-width: 269px;
-    }
-    .section-images .hero-images-container-2 {
-        right: 5%;
-        max-width: 135px;
-        top: 93%;
-    }
+
     .navbar .navbar-nav.navbar-logo {
         display: none;
     }
@@ -7090,34 +7063,13 @@ Created using IcoMoon - icomoon.io
     }
 }
 
-@media screen and (min-width: 991px) and (max-width: 1200px) {
-    .section-images .hero-images-container-1 {
-        right: 9%;
-        max-width: 370px;
-    }
-    .section-images .hero-images-container-2 {
-        right: 2%;
-        max-width: 216px;
-    }
-}
-
 @media screen and (max-width: 768px) {
     .section-images {
         height: 300px;
         max-height: 300px;
     }
     .section-images .hero-images-container {
-        max-width: 380px;
-    }
-    .section-images .hero-images-container-1 {
-        right: 7%;
-        top: 87%;
-        max-width: 210px;
-    }
-    .section-images .hero-images-container-2 {
-        right: 1%;
-        max-width: 133px;
-        top: 99%;
+        max-width: 120%;
     }
 }
 
@@ -7127,34 +7079,15 @@ Created using IcoMoon - icomoon.io
     }
 }
 
-@media screen and (min-width: 1200px) {
-    .section-images .hero-images-container-1 {
-        top: 51%;
-        right: 21%;
-    }
-    .section-images .hero-images-container-2 {
-        top: 66%;
-        right: 14%;
-    }
-}
-
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
     .section-images .hero-images-container,
     .section-images .hero-images-container-1,
     .section-images .hero-images-container-2 {
-        margin-top: -15vh;
+        margin-top: 1vh;
         margin-left: 80px;
     }
     .section-images .hero-images-container {
-        max-width: 300px;
-    }
-    .section-images .hero-images-container-1 {
-        right: 28%;
-        top: 40%;
-    }
-    .section-images .hero-images-container-2 {
-        right: 21%;
-        top: 55%;
+        max-width: 120%;
     }
     .index-page .category-absolute {
         top: 90vh;
