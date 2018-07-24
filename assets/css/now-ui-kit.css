@@ -5407,15 +5407,41 @@ Created using IcoMoon - icomoon.io
     left: 40%;
 }
 
-.section-images {
-    max-height: 670px;
-    height: 670px;
+.section-images .hero-images-container {
+    position: absolute;
+    width: 140%;
+    margin-left: -20%;
+    margin-top: -6vh;
 }
 
-.section-images .hero-images-container {
-    margin-top: -7vh;
-    margin-left: -10%;
-    width: 120%;
+@media only screen and (min-width: 1580px){
+    .section-images .hero-images-container {
+        margin-top: -6vh;
+        margin-left: -32%;
+    }
+    .section-images .hero-images-container {
+        width: 160%;
+    }
+}
+
+@media only screen and (min-width: 1832px){
+    .section-images .hero-images-container {
+        margin-top: -6vh;
+        margin-left: -90%;
+    }
+    .section-images .hero-images-container {
+        width: 290%;
+    }
+}
+
+@media only screen and (min-width: 3166px){
+    .section-images .hero-images-container {
+        margin-top: -6vh;
+        margin-left: -110%;
+    }
+    .section-images .hero-images-container {
+        width: 320%;
+    }
 }
 
 [data-background-color="orange"] {
@@ -6467,12 +6493,8 @@ Created using IcoMoon - icomoon.io
     .navbar-nav .nav-link i.now-ui-icons {
         opacity: .5;
     }
-    .section-images {
-        height: 500px;
-        max-height: 500px;
-    }
     .section-images .hero-images-container {
-        max-width: 120%;
+        max-width: 140%;
     }
 
     .navbar .navbar-nav.navbar-logo {
@@ -7068,12 +7090,8 @@ Created using IcoMoon - icomoon.io
 }
 
 @media screen and (max-width: 768px) {
-    .section-images {
-        height: 300px;
-        max-height: 300px;
-    }
     .section-images .hero-images-container {
-        max-width: 120%;
+        max-width: 140%;
     }
 }
 
@@ -7091,7 +7109,7 @@ Created using IcoMoon - icomoon.io
         margin-left: 80px;
     }
     .section-images .hero-images-container {
-        max-width: 120%;
+        max-width: 140%;
     }
     .index-page .category-absolute {
         top: 90vh;
