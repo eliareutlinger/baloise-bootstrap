@@ -2399,7 +2399,7 @@ textarea.form-control:focus, textarea.form-control:active {
     border-radius: 3px;
     top: 0;
     background-color: transparent;
-    border: 1px solid #E3E3E3;
+    border: 1px solid #003399;
     -webkit-transition: opacity 0.3s linear;
     -moz-transition: opacity 0.3s linear;
     -o-transition: opacity 0.3s linear;
@@ -2414,7 +2414,7 @@ textarea.form-control:focus, textarea.form-control:active {
     text-align: center;
     font-size: 14px;
     opacity: 0;
-    color: #555555;
+    color: #003399;
     border: 0;
     background-color: inherit;
 }
@@ -2456,7 +2456,7 @@ textarea.form-control:focus, textarea.form-control:active {
 
 .checkbox-primary input[type="checkbox"]:checked + label::before {
     background-color: #428bca;
-    border-color: #428bca;
+    border-color: #003399;
 }
 
 .checkbox-primary input[type="checkbox"]:checked + label::after {
@@ -2505,7 +2505,7 @@ textarea.form-control:focus, textarea.form-control:active {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    border: 1px solid #E3E3E3;
+    border: 1px solid #003399;
     display: inline-block;
     position: absolute;
     left: 3px;
@@ -2527,7 +2527,7 @@ textarea.form-control:focus, textarea.form-control:active {
     width: 4px;
     height: 4px;
     background-color: #555555;
-    border-color: #555555;
+    border-color: #003399;
     top: 11px;
     left: 11px;
     opacity: 1;
