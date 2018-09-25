@@ -24,6 +24,29 @@
  * Copyright 2012-2013 Mattia Larentis
  * http://www.apache.org/licenses/LICENSE-2.0
  */
+ @font-face {
+     font-family: 'MetaPro-Normal';
+     src: url('../fonts/MetaPro-Normal.eot');
+     src: url('../fonts/MetaPro-Normal.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MetaPro-Normal.woff2') format('woff2'),
+         url('../fonts/MetaPro-Normal.woff') format('woff'),
+         url('../fonts/MetaPro-Normal.ttf') format('truetype'),
+         url('../fonts/MetaPro-Normal.svg#MetaPro-Normal') format('svg');
+     font-weight: normal;
+     font-style: normal;
+ }
+
+ @font-face {
+     font-family: 'MetaPro';
+     src: url('../fonts/MetaPro-Medium.eot');
+     src: url('../fonts/MetaPro-Medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MetaPro-Medium.woff2') format('woff2'),
+         url('../fonts/MetaPro-Medium.woff') format('woff'),
+         url('../fonts/MetaPro-Medium.ttf') format('truetype'),
+         url('../fonts/MetaPro-Medium.svg#MetaPro-Medium') format('svg');
+     font-weight: 500;
+     font-style: normal;
+ }
 .bootstrap-switch {
     display: inline-block;
     direction: ltr;
@@ -1339,7 +1362,7 @@
 .navbar .navbar-nav > a.btn {
     border-width: 2px;
     font-weight: 400;
-    font-size: 0.8571em;
+    font-size: 0.9em;
     line-height: 1.35em;
     margin: 5px 1px;
     border: none;
@@ -2038,7 +2061,7 @@ fieldset[disabled]
     border-radius: 30px;
     color: #2c2c2c;
     line-height: normal;
-    font-size: 0.8571em;
+    font-size: 0.9em;
     -webkit-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
     -moz-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
     -o-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
@@ -2561,7 +2584,7 @@ textarea.form-control:focus, textarea.form-control:active {
 
 .progress-container .progress-badge {
     color: #444444;
-    font-size: 0.8571em;
+    font-size: 0.9em;
     text-transform: uppercase;
 }
 
@@ -2583,7 +2606,7 @@ textarea.form-control:focus, textarea.form-control:active {
     top: 2px;
     right: 0;
     color: #444444;
-    font-size: 0.8571em;
+    font-size: 0.9em;
 }
 
 .progress-container.progress-neutral .progress {
@@ -2669,7 +2692,7 @@ textarea.form-control:focus, textarea.form-control:active {
     border-radius: 8px;
     padding: 4px 8px;
     text-transform: uppercase;
-    font-size: 0.7142em;
+    font-size: 0.9em;
     line-height: 12px;
     background-color: transparent;
     border: 1px solid;
@@ -2818,7 +2841,7 @@ input,
 optgroup,
 select,
 textarea {
-    font-family: ff-meta-web-pro,Helvetica,Arial,sans-serif;
+    font-family: 'MetaPro-Normal',sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -2957,7 +2980,7 @@ p {
 
 .blockquote small {
     color: #444444;
-    font-size: 0.8571em;
+    font-size: 0.9em;
     text-transform: uppercase;
 }
 
@@ -2991,7 +3014,7 @@ p {
 body {
     color: #2c2c2c;
     font-size: 14px;
-    font-family: ff-meta-web-pro,Helvetica,Arial,sans-serif;
+    font-family: 'MetaPro-Normal',sans-serif;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
 }
@@ -3291,7 +3314,7 @@ body {
 
 .navbar .navbar-nav .nav-link:not(.btn) {
     text-transform: uppercase;
-    font-size: 0.7142em;
+    font-size: 0.9em;
     padding: 0.5rem 0.7rem;
     line-height: 1.625rem;
 }
@@ -3344,7 +3367,7 @@ body {
 
 .navbar .navbar-brand {
     text-transform: uppercase;
-    font-size: 0.8571em;
+    font-size: 0.9em;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     line-height: 1.625rem;
@@ -3466,7 +3489,7 @@ body {
 }
 
 .dropdown-menu .dropdown-item {
-    font-size: 0.8571em;
+    font-size: 0.9em;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     -webkit-transition: all 150ms linear;
@@ -3486,7 +3509,7 @@ body {
 
 .dropdown-menu .dropdown-header:not([href]):not([tabindex]) {
     color: rgba(182, 182, 182, 0.6);
-    font-size: 0.7142em;
+    font-size: 0.9em;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -4785,7 +4808,7 @@ Created using IcoMoon - icomoon.io
 .footer ul li a {
     color: inherit;
     padding: 0.5rem;
-    font-size: 0.8571em;
+    font-size: 0.9em;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -4795,7 +4818,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .footer .copyright {
-    font-size: 0.8571em;
+    font-size: 0.9em;
 }
 
 .footer:after {
@@ -5408,40 +5431,8 @@ Created using IcoMoon - icomoon.io
 }
 
 .section-images .hero-images-container {
-    position: absolute;
-    width: 140%;
-    margin-left: -20%;
     margin-top: -6vh;
-}
-
-@media only screen and (min-width: 1580px){
-    .section-images .hero-images-container {
-        margin-top: -6vh;
-        margin-left: -32%;
-    }
-    .section-images .hero-images-container {
-        width: 160%;
-    }
-}
-
-@media only screen and (min-width: 1832px){
-    .section-images .hero-images-container {
-        margin-top: -6vh;
-        margin-left: -90%;
-    }
-    .section-images .hero-images-container {
-        width: 290%;
-    }
-}
-
-@media only screen and (min-width: 3166px){
-    .section-images .hero-images-container {
-        margin-top: -6vh;
-        margin-left: -110%;
-    }
-    .section-images .hero-images-container {
-        width: 320%;
-    }
+    width: 105%;
 }
 
 [data-background-color="orange"] {
@@ -6493,9 +6484,6 @@ Created using IcoMoon - icomoon.io
     .navbar-nav .nav-link i.now-ui-icons {
         opacity: .5;
     }
-    .section-images .hero-images-container {
-        max-width: 140%;
-    }
 
     .navbar .navbar-nav.navbar-logo {
         display: none;
@@ -7089,12 +7077,6 @@ Created using IcoMoon - icomoon.io
     }
 }
 
-@media screen and (max-width: 768px) {
-    .section-images .hero-images-container {
-        max-width: 140%;
-    }
-}
-
 @media screen and (max-width: 517px) {
     .alert .alert-icon {
         margin-top: 10px;
@@ -7102,15 +7084,6 @@ Created using IcoMoon - icomoon.io
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-    .section-images .hero-images-container,
-    .section-images .hero-images-container-1,
-    .section-images .hero-images-container-2 {
-        margin-top: 1vh;
-        margin-left: 80px;
-    }
-    .section-images .hero-images-container {
-        max-width: 140%;
-    }
     .index-page .category-absolute {
         top: 90vh;
     }
